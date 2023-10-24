@@ -56,9 +56,10 @@ struct ContentView: View {
                         .background(Color.blue)
                         .cornerRadius(10)
                         
-                        NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen) {
+                        NavigationLink(destination: ListScreen(), isActive: $showingLoginScreen){
                             EmptyView()
                         }
+                    
                     }
                 }.navigationBarHidden(true)
             }

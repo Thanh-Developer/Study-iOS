@@ -11,6 +11,8 @@
 		CC8AA9012AAF6F0F003B6E53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AA9002AAF6F0F003B6E53 /* ContentView.swift */; };
 		CC8AA9032AAF6F11003B6E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8AA9022AAF6F11003B6E53 /* Assets.xcassets */; };
 		CC8AA9062AAF6F11003B6E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8AA9052AAF6F11003B6E53 /* Preview Assets.xcassets */; };
+		CCA951532AE811FE008A8BEE /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA951522AE811FD008A8BEE /* Countries.swift */; };
+		CCA951562AE81FCB008A8BEE /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA951552AE81FCB008A8BEE /* ListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CC8AA9002AAF6F0F003B6E53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC8AA9022AAF6F11003B6E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8AA9052AAF6F11003B6E53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCA951522AE811FD008A8BEE /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		CCA951552AE81FCB008A8BEE /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		CC8AA8FD2AAF6F0F003B6E53 /* LoginScreenStudy */ = {
 			isa = PBXGroup;
 			children = (
+				CCA951542AE81FB5008A8BEE /* ListScreen */,
 				CC8AA8FE2AAF6F0F003B6E53 /* LoginScreenStudyApp.swift */,
 				CC8AA9002AAF6F0F003B6E53 /* ContentView.swift */,
 				CC8AA9022AAF6F11003B6E53 /* Assets.xcassets */,
 				CC8AA9042AAF6F11003B6E53 /* Preview Content */,
+				CCA951522AE811FD008A8BEE /* Countries.swift */,
 			);
 			path = LoginScreenStudy;
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				CC8AA9052AAF6F11003B6E53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCA951542AE81FB5008A8BEE /* ListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CCA951552AE81FCB008A8BEE /* ListScreen.swift */,
+			);
+			path = ListScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8AA9012AAF6F0F003B6E53 /* ContentView.swift in Sources */,
+				CCA951532AE811FE008A8BEE /* Countries.swift in Sources */,
 				CC8AA8FF2AAF6F0F003B6E53 /* LoginScreenStudyApp.swift in Sources */,
+				CCA951562AE81FCB008A8BEE /* ListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
